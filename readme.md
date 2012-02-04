@@ -18,7 +18,9 @@ Support
 
 Requires canvas API. So no IE8. Great in IE9 tho.
 To build the source, you'll need Node.js. From the root dir, run:
+
 `node build/compile.js build/project.coffee`
+
 and it will auto-compile when coffeescript files are modified.
 See `build/project.coffee` for options.
 
@@ -62,3 +64,5 @@ Future
 
 Starfield class is pretty ugly, could maybe do with better seperation. Potential for speed
 optimisations all over the pace, but performance hasn't been a problem so far, YMMV.
+
+Star brightness dropoff could use an exponential shaper, linear dropoff is pretty lame.
